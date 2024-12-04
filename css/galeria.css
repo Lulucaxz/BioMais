@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto condensed"
+}
+
+
+
+body{
+    overflow-x: hidden;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+main{
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.titulo{
+    margin-top: 50px;
+}
+
+.galeria{
+    columns: 3 200px; 
+    column-gap: 15px;
+    padding: 20px;
+}
+
+.fotoGaleria{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.fotoGaleria:hover{
+    transform: scale(1.02   );
+    transition: all 0.5s ease;
+}
+
+.galeria-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
